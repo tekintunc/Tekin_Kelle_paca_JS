@@ -1,5 +1,5 @@
 // burada bütün çiftlikteki hayvanlar array ile sıralanır
-let animals = ["tavuk", "inek", "tavuk", "inek", "koyun", "inek","domuz","tavuk"];
+let animals = ["tavuk", "inek", "tavuk", "inek", "koyun", "inek","domuz","tavuk","inek"];
 let inek = 0;
 let tavuk = 0;
 let domuz = 0;
