@@ -1,5 +1,5 @@
 // burada bütün çiftlikteki hayvanlar array ile sıralanır
-let animals = ["tavuk", "inek", "tavuk", "inek", "koyun", "domuz"];
+let animals = ["tavuk", "inek", "tavuk", "inek", "koyun", "inek","domuz","tavuk"];
 let inek = 0;
 let tavuk = 0;
 let domuz = 0;
@@ -19,5 +19,6 @@ for (let index = 0; index < animals.length; index++) {
     koyun++;
   }
 }
-
+console.log("Ciftlikte " +  animals.length +  " tane hayvan var");
+console.log("ciftlikte "  + ((animals.length * 4) - (tavuk * 2)) + " tane hayvan ayagı var" );
 console.log("kellepaçaya uygun ayak sayısı: " + (inek + koyun) * 4);
